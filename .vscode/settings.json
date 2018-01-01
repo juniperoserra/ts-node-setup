@@ -9,6 +9,5 @@
     "node_modules": true
   },
   "standard.enable": false,
-  "editor.formatOnSave": true,
   "editor.formatOnPaste": true
 }
