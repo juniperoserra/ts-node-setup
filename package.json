@@ -1,0 +1,28 @@
+{
+  "name": "ts-node-setup",
+  "version": "0.0.1",
+  "description": "Basic setup for using TypeScript with Node and VS Code",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "repository": "github:juniperoserra/_",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Simon Greenwold",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.0.10",
+    "@types/mocha": "^2.2.45",
+    "@types/node": "^8.5.2",
+    "chai": "^4.1.2",
+    "dirty-chai": "^2.0.1",
+    "mocha": "^4.1.0",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {}
+}

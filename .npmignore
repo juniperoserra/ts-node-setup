@@ -1,0 +1,5 @@
+*
+src
+lib/**/*.spec.js
+lib/**/*.map
+tsconfig.json
