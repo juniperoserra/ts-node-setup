@@ -9,3 +9,4 @@ A base repository for a TypeScipt node module project
 * [VS Code Node setup](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
 * [VS Code debugging](https://code.visualstudio.com/docs/editor/debugging)
 * [VS Code tasks](https://code.visualstudio.com/docs/editor/tasks)
+* [Library declaration files](https://www.typescriptlang.org/docs/handbook/declaration-files/library-structures.html)

@@ -3,13 +3,17 @@
   "version": "0.0.1",
   "description": "Basic setup for using TypeScript with Node and VS Code",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib/index.d.ts"],
   "engines": {
     "node": ">=4"
   },
   "repository": "github:juniperoserra/_",
   "scripts": {
+    "build": "rimraf lib && mkdir lib && cp src/index.d.ts lib && tsc",
+    "pretest": "npm run build",
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
-    "build": "tsc"
+    "prepack": "npm run build"
   },
   "keywords": [],
   "author": "Simon Greenwold",
@@ -21,6 +25,7 @@
     "chai": "^4.1.2",
     "dirty-chai": "^2.0.1",
     "mocha": "^4.1.0",
+    "rimraf": "^2.6.2",
     "ts-node": "^4.1.0",
     "tslint": "^5.8.0",
     "tslint-config-standard": "^7.0.0",
