@@ -5,6 +5,7 @@ A base repository for a TypeScipt node module project
 
 * [Writing tests in TypeScript](https://journal.artfuldev.com/unit-testing-node-applications-with-typescript-using-mocha-and-chai-384ef05f32b2)
  In particular, note what's required when using tsc in conjunction with WebPack
+* [Typesript => JSON Schema](https://github.com/YousefED/typescript-json-schema)
 * [VS Code TypeScript setup](https://code.visualstudio.com/docs/languages/typescript)
 * [VS Code Node setup](https://code.visualstudio.com/docs/nodejs/nodejs-tutorial)
 * [VS Code debugging](https://code.visualstudio.com/docs/editor/debugging)
