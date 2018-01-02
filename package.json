@@ -10,7 +10,7 @@
   },
   "repository": "github:juniperoserra/_",
   "scripts": {
-    "build": "rimraf lib && mkdir lib && cp src/index.d.ts lib && tsc",
+    "build": "rimraf lib && mkdir lib && tsc",
     "pretest": "npm run build",
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
     "prepack": "npm run build"
