@@ -13,6 +13,7 @@
     "build": "rimraf lib && mkdir lib && tsc",
     "pretest": "npm run build",
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "watch": "npm test -- --watch --watch-extensions ts",
     "prepack": "npm run build"
   },
   "keywords": [],
